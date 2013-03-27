@@ -1,0 +1,179 @@
+{
+	"sampleName":"samplecommons",
+	"styleName": "",
+	"brand_hu": "liveSense Példák",
+	"brand_en": "liveSense Samples",
+	"backtoTitle_hu": "liveSense Portál",
+	"backtoTitle_en": "liveSense Portal",
+	"backtoTooltip_hu": "További liveSense példaprogramok",
+	"backtoTooltip_en": "Showcase of liveSense samples",
+	"bundleinfo_hu": "Köteg információk",
+	"bundleinfo_en": "Bundle information",
+	"backtotop_hu": "Elejére",
+	"backtotop_en": "Back to top",
+	"footertext_hu": "Készítette <a href='http://allretailconsulting.com'>Diós János</a>. Kapcsolat: <a href='mailto:janos.dios@allretailconsulting.com'>janos.dios@allretailconsulting.com</a>.<br/>A forráskód licensze <a href='http://www.apache.org/licenses/LICENSE-2.0'>Apache Licensz v2.0</a>.<br/>Az oldal <a href='http://twitter.github.com/bootstrap/'>Bootstrap</a> és <a href='http://bootswatch.com//'>Bootswatch</a> alapokon készült. Ikonok: <a href='http://fortawesome.github.com/Font-Awesome/'>Font Awesome</a>. Karakterkészlet: <a href='http://www.google.com/webfonts'>Google</a>.</p>",
+	"footertext_en": "Created by <a href='http://allretailconsulting.com'>Janos Dios</a>. Contact email <a href='mailto:janos.dios@allretailconsulting.com'>janos.dios@allretailconsulting.com</a>.<br/>Code licensed under the <a href='http://www.apache.org/licenses/LICENSE-2.0'>Apache License v2.0</a>.<br/>Based on <a href='http://twitter.github.com/bootstrap/'>Bootstrap</a> and <a href='http://bootswatch.com//'>Bootswatch</a>. Icons from <a href='http://fortawesome.github.com/Font-Awesome/'>Font Awesome</a>. Web fonts from <a href='http://www.google.com/webfonts'>Google</a>.</p>",
+	"jcr:primaryType":"samplecommons:samplesite",
+
+	"index": {
+    	"sampleName": "samplecommons",
+    	"title": "Sample Commons",
+    	"menuOrder": "1",
+    	"menuName_hu": "Főoldal",
+    	"menuName_en": "Home",
+		"menuLevel": "1",
+		"menuLevel2Parent": "",
+		"menuLink": "index.html",
+		"jstorun": "",
+		"islink": true,
+		"enabled": true,
+		"isdivider": false,
+		"headerLabel_hu": "Közös Példák",
+		"headerSubLabel_hu": "A példaprogramok közös őse",
+		"headerLabel_en": "Sample Commons",
+		"headerSubLabel_en": "Ancestor for all Samples",
+		"headerType": "bundleinfo",
+    	"jcr:primaryType": "samplecommons:samplepage"
+	},
+	"language": {
+    	"sampleName": "samplecommons",
+    	"title": "Sample Commons",
+    	"menuOrder": "2",
+    	"menuName_hu": "Nyelv",
+    	"menuName_en": "Language",
+		"menuLevel": "1",
+		"menuLevel2Parent": "",
+		"jstorun": "",
+		"islink": true,
+		"enabled": true,
+		"isdivider": false,
+    	"jcr:primaryType": "samplecommons:samplepage"
+	},
+	"language_en": {
+    	"sampleName": "samplecommons",
+    	"title": "Sample Commons",
+    	"menuOrder": "1",
+    	"menuName_hu": "Angol",
+    	"menuName_en": "English",
+		"menuLevel": "2",
+		"menuLevel2Parent": "language",
+		"jstorun": "post_language('en_US')",
+		"islink": true,
+		"enabled": true,
+		"isdivider": false,
+    	"jcr:primaryType": "samplecommons:samplepage"
+	},
+	"language_hu": {
+    	"sampleName": "samplecommons",
+    	"title": "Sample Commons",
+    	"menuOrder": "2",
+    	"menuName_hu": "Magyar",
+    	"menuName_en": "Hungarian",
+		"menuLevel": "2",
+		"menuLevel2Parent": "language",
+		"jstorun": "post_language('hu_HU')",
+		"islink": true,
+		"enabled": true,
+		"isdivider": false,
+    	"jcr:primaryType": "samplecommons:samplepage"
+	},
+	
+    "bundleName": {
+ 		"sampleName": "samplecommons",
+ 		"infoName_hu": "Név",
+ 		"infoName_en": "Name",
+		"infoValue_hu": "org.liveSense.sample.commons",
+		"infoValue_en": "org.liveSense.sample.commons",
+    	"infoOrder": "1",
+    	"infoLink": "http://github.com/liveSense/org.liveSense.sample.commons",
+    	"jcr:primaryType": "samplecommons:bundleinfo"
+    },
+    "bundleVersion": {
+ 		"sampleName": "samplecommons",
+ 		"infoName_hu": "Verzió",
+ 		"infoName_en": "Version",
+		"infoValue_hu": "1.0.0-SNAPSHOT",
+		"infoValue_en": "1.0.0-SNAPSHOT",
+    	"infoOrder": "2",
+    	"jcr:primaryType": "samplecommons:bundleinfo"
+    },
+	
+	"info": {
+    	"sampleName": "samplecommons",
+		"parentPage": "index",
+    	"menuOrder": "1",
+    	"title_hu": "Áttekintés",
+    	"title_en": "Overview",
+    	"content_hu": "Fejlesztés alatt!",
+    	"content_en": "The purpose of the org.livesense.sample.commons package is to give an anchestor bundle to every liveSense sample to ensure the standardized, nice and clean user interface which easily can be maintained. If this bundle is installed to the JCR repository, any other sample code can use its nodetypes and jsp-pages to render the HTML header, footer. This bundle is using the Bootstrap framework, and built on Bootswatch.",
+    	"contentType": "text",
+    	"visibleInSubnav": true,
+    	"jcr:primaryType": "samplecommons:subpage"
+	},
+
+	"samplesite": {
+    	"sampleName": "samplecommons",
+		"parentPage": "index",
+    	"menuOrder": "2",
+    	"title_hu": "Sample site",
+    	"title_en": "Sample site",
+    	"content_hu": "Fejlesztés alatt!",
+    	"content_en": "<p>This node type has the multilingual labels for the current sample site.</p><dl class='dl-horizontal'><dt>SampleName</dt><dd>This property determines which sample the node belongs to</dd><dt>StyleName</dt><dd>Which Bootswatch theme to use (default: <strong>spacelab</strong>, <strong>'.united'</strong>, <strong>'.spruce'</strong>, etc.).</dd><dt>Brand</dt><dd>Label for the brand in the menu</dd><dt>BacktoTitle</dt><dd>Label for the 'back to' menu item</dd><dt>BacktoTooltip</dt><dd>Tooltip for the 'back to' menu item</dd><dt>Bundleinfo</dt><dd>Label for the 'bundle info' in the header</dd><dt>Backtotop</dt><dd>Label for the 'back to top' button in the footer</dd><dt>Footertext</dt><dd>Footer text</dd></dl><p>Node type name: <strong>[samplecommons: samplesite]</strong></p>",
+    	"contentType": "text",
+    	"visibleInSubnav": true,
+    	"jcr:primaryType": "samplecommons:subpage"
+	},
+
+	"samplepage": {
+    	"sampleName": "samplecommons",
+		"parentPage": "index",
+    	"menuOrder": "3",
+    	"title_hu": "Sample page",
+    	"title_en": "Sample page",
+    	"content_hu": "Fejlesztés alatt!",
+    	"content_en": "<p>This node type represents an individual HTML page or a menu item in the sample site. The defined page's menu name is shown in the menu bar.</p><dl class='dl-horizontal'><dt>SampleName</dt><dd>This property determines which sample the node belongs to</dd><dt>Title</dt><dd>The HTML page's title</dd><dt>MenuOrder</dt><dd>Use to determine the sequence of the menu items</dd><dt>MenuName</dt><dd>Label for the menu item</dd><dt>MenuLevel</dt><dd><strong>'1'</strong> for the main menu items, <strong>'2'</strong> for the sub-menu items</dd><dt>MenuLevel2Parent</dt><dd>Node name of the parent menu item for sub-menu items</dd><dt>Jstorun</dt><dd>Run this javascript when menu item selected</dd><dt>MenuLink</dt><dd>Href section for the menu item</dd><dt>Islink</dt><dd>Determines if the menu item is a link or not</dd><dt>Enabled</dt><dd>Hide/show menu item</dd><dt>Isdivider</dt><dd>Use this if the menu item is a divider (only in sub-menus)</dd><dt>HeaderLabel</dt><dd>The page's title in the header</dd><dt>HeaderSubLabel</dt><dd>The page's sub-title in the header</dd><dt>HeaderType</dt><dd><strong>'text'</strong>: show content in a well-element, <strong>'bundleinfo'</strong>: bundle info in a well-element</dd><dt>Content</dt><dd>Text to display in the header if the page type is 'text'</dd></dl><p>Node type name: <strong>[samplecommons: samplepage]</strong></p>",
+    	"contentType": "text",
+    	"visibleInSubnav": true,
+    	"jcr:primaryType": "samplecommons:subpage"
+	},
+	"subpage": {
+    	"sampleName": "samplecommons",
+		"parentPage": "index",
+    	"menuOrder": "4",
+    	"title_hu": "Subpage",
+    	"title_en": "Subpage",
+    	"content_hu": "Fejlesztés alatt!",
+    	"content_en": "<p>Use subpages to make chapters in a specified page. If allowed, subpage's name will shown in the subpage-navigator line, under the header. This bundle only renders the subpage-navigator bar, <strong>will not render the subpage itself</strong>, that is sample-specific task.</p><dl class='dl-horizontal'><dt>SampleName</dt><dd>This property determines which sample the node belongs to</dd> <dt>ParentPage</dt><dd>The subpage belongs to this page</dd><dt>MenuOrder</dt><dd>Determine the order of the subpages</dd><dt>Title</dt><dd>Title of the subpage</dd><dt>Content</dt><dd>Content of the subpage</dd><dt>ContentType</dt><dd><strong>'text'</strong> means a standard title/content subpage, or samples can define their own</dd><dt>VisibleInSubnav</dt><dd>Show in the subpage-navigator bar</dd></dl><p>Node type name: <strong>[samplecommons: subpage]</strong></p>",
+      	"contentType": "text",
+    	"visibleInSubnav": true,
+    	"jcr:primaryType": "samplecommons:subpage"
+	},
+
+	"bundleinfo": {
+    	"sampleName": "samplecommons",
+		"parentPage": "index",
+    	"menuOrder": "5",
+    	"title_hu": "Bundle info",
+    	"title_en": "Bundle info",
+    	"content_hu": "Fejlesztés alatt!",
+    	"content_en": "<p>Use this node type to determine the bundle information to display in the header.</p><dl class='dl-horizontal'><dt>SampleName</dt><dd>This property determines which sample the node belongs to</dd><dt>InfoName</dt><dd>Label for the information's name (f.e.: 'Bundle name', 'Version')</dd><dt>InfoValue</dt><dd>Value of the information (f.e.: '1.0.0')</dd><dt>InfoOrder</dt><dd>Use this to determine the order</dd><dt>InfoLink</dt><dd>Href part for the information value</dd></dl><p>Node type name: <strong>[samplecommons: bundleinfo]</strong></p>",
+       	"contentType": "text",
+    	"visibleInSubnav": true,
+    	"jcr:primaryType": "samplecommons:subpage"
+	},
+	
+	"usage": {
+    	"sampleName": "samplecommons",
+		"parentPage": "index",
+    	"menuOrder": "6",
+    	"title_hu": "Használat",
+    	"title_en": "Usage",
+    	"content_hu": "Fejlesztés alatt!",
+    	"content_en": "<p>Simply define the node types of your new sample project using the samplecommons' ones as the type:</p><pre>[markdownsample:samplesite] &gt; samplecommons:samplesite\n[markdownsample:markdownpage] &gt; samplecommons:samplepage\n...</pre><br><p>Create the necessary sample page, sub-page, etc. nodes:</p><pre>...\n&quot;index&quot;: {\n	&quot;sampleName&quot;: &quot;markdownsample&quot;,\n	&quot;title&quot;: &quot;Markdown Sample&quot;,\n	&quot;menuOrder&quot;: &quot;1&quot;,\n	&quot;menuName_en&quot;: &quot;Home&quot;,\n	&quot;menuLevel&quot;: &quot;1&quot;,\n	&quot;menuLevel2Parent&quot;: &quot;&quot;,\n	&quot;menuLink&quot;: &quot;index.html&quot;,\n	&quot;jstorun&quot;: &quot;&quot;,\n	&quot;islink&quot;: true,\n	&quot;enabled&quot;: true,\n	&quot;isdivider&quot;: false,\n	&quot;headerLabel_en&quot;: &quot;Markdown&quot;,\n	&quot;headerSubLabel_en&quot;: &quot;Nice and Clean&quot;,\n	&quot;headerType&quot;: &quot;bundleinfo&quot;,\n	&quot;jcr:primaryType&quot;: &quot;markdownsample:markdownpage&quot;\n},\n...</pre><br><p>Include the header, sub-header and footer jsp files in your new sample's jsp:</p><pre>&lt;jsp:directive.include file=&quot;/apps/samplecommons/samplepage/header.jsp&quot; /&gt;\n&lt;jsp:directive.include file=&quot;/apps/samplecommons/samplepage/subheader.jsp&quot; /&gt;\n...\n&lt;jsp:directive.include file=&quot;/apps/samplecommons/samplepage/footer.jsp&quot; /&gt;</pre><br><p>And it's done!</p>",
+     	"contentType": "text",
+    	"visibleInSubnav": true,
+    	"jcr:primaryType": "samplecommons:subpage"
+	}
+	
+	
+}
